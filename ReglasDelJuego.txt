@@ -3,11 +3,12 @@ Triviados:
 -  Un juego sobre un tablero en el que participan de 2 a 6 jugadores
 	-Se usa el tablero del trivial
 
-- La temática del juego es: ciencia y tecnología, literatura, historia, espectáculos, deportes, geografía.
+- La temática del juego es: ciencia y tecnología, literatura, historia, espectáculos, deportes, geografía, de todo.
 
 - Fichas: 
-	- cada ficha tiene 6 huecos por cada tema de los mencionados en la temática
-	- quesitos
+	- cada ficha tiene 7 huecos por cada tema de los mencionados en la temática
+	- cada ficha se rellena con quesitos. Un quesito del mismo color por ficha, es decir, una ficha estará
+	completa cuando tengo 7 quesitos de distinto color.
 	
 - Tiempo: 30 segundos para responder.
 	
@@ -15,20 +16,27 @@ Triviados:
 	- Cuando un jugador falla pierde turno.
 	- Cuando un jugador acierta vuelve a tirar.
 	- Cuando a un jugador se le pasa el tiempo es como si fallara, pierde turno.
+	
+- Dinámica del juego:
+	- Si el jugador cae en una casilla con quesito:
+		- Si acierta:
+			- Si ya tiene el quesito de ese color y los oponentes no --> sigue jugando
+			- Si ya tiene el quesito de ese color y algún oponente también --> elige a quién quitarle 
+			el quesito de ese color
+			- Si no tiene el quesito --> lo gana
+		- Si falla:
+			- Si ya tiene el quesito de ese color --> lo pierde
+			- Si no tiene el quesito de ese color --> sigue jugando
 
 - Casillas:
-	- Con temática sin queso (24)
-	- Volver a tirar (10)
-	- Con tematica con queso (7)
+	- casillas quesito (7)
+	- casillas volver a tirar (10)
+	- casillas de color segun el tema  (24)
 	- Casilla duelo (2)
 	
 - 2 Jugadores
-- 1 Dado
 
-- Dinamica del juego:
-	- Cuando un jugador acierta continua jugando
-	- Cuando un falla pierde turno
-	- Cuando un jugador falla en casilla de queso pierde queso
+- 1 Dado
 	
 - Fin del juego:
 	- El juego termina cuando un jugador consigue todos los quesos
