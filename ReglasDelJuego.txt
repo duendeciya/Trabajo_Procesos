@@ -18,15 +18,20 @@ Triviados:
 	- Cuando a un jugador se le pasa el tiempo es como si fallara, pierde turno.
 	
 - Dinámica del juego:
-	- Si el jugador cae en una casilla con quesito:
-		- Si acierta:
+	- Si el jugador cae en una casilla con quesito: se le hace una pregunta de  la temática correspondiente
+	a ese color
+		- Si acierta la pregunta:
 			- Si ya tiene el quesito de ese color y los oponentes no --> sigue jugando
 			- Si ya tiene el quesito de ese color y algún oponente también --> elige a quién quitarle 
 			el quesito de ese color
 			- Si no tiene el quesito --> lo gana
-		- Si falla:
+		- Si falla la pregunta:
 			- Si ya tiene el quesito de ese color --> lo pierde
 			- Si no tiene el quesito de ese color --> sigue jugando
+	- Si el jugador cae en una casilla de color pero sin quesito:
+		- Si acierta: sigue jugando.
+		- Si falla: pasa el turno al siguiente jugador.
+	- Si el jugador cae en una casilla de volver a tirar: vuelve a tirar el dado.
 
 - Casillas:
 	- casillas quesito (7)
